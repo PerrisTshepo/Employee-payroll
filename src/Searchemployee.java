@@ -17,7 +17,7 @@ public class Searchemployee {
             if (employee.getEmployeeId() == searchId) {
 
                 System.out.println("\n===== Employee Found =====");
-                employee.displayemployee();
+                employee.displayDetails();
 
                 found = true;
                 break;
