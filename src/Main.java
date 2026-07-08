@@ -16,6 +16,7 @@ public class Main {
       System.out.println("1. Add Employee");
       System.out.println("2. View Employees");
       System.out.println("3. Search Employees");
+      System.out.println("5. Remove Employee");
       System.out.println("═══════════════════════════");
 
 
@@ -40,10 +41,12 @@ public class Main {
         case 4:
           break;
 
-        case 5:
-          break;
+          case 5:
+              RemoveEmployee.removeEmployee(employees, scanner);
+              break;
 
-        case 6:
+
+          case 6:
           System.out.println("Goodbye!");
           break;
 
