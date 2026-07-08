@@ -43,7 +43,7 @@ public class Main {
         default:
           System.out.println("Invalid choice.");
       }
-1
+
     } while (choice != 6);
 
   }
