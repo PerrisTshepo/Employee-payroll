@@ -41,8 +41,8 @@ public class Employee {
 
     // Display employee details
     public void displayDetails() {
-        System.out.println("ID: " + employeeId);
-        System.out.println("Name: " + name);
-        System.out.println("Base Salary: R" + baseSalary);
+      System.out.println("Employee ID: " + getEmployeeId());
+      System.out.println("Name: " + getName());
+      System.out.println("Base Salary: R" + getBaseSalary());
     }
 }
