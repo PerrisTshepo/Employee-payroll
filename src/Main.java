@@ -13,6 +13,7 @@ public class Main {
     do {
 
       System.out.println("1. Add Employee");
+      System.out.println("2. View Employees");
 
 
       System.out.print("Enter your choice: ");
@@ -25,6 +26,7 @@ public class Main {
           break;
 
         case 2:
+          ViewEmployees.viewEmployees(employees);
           break;
 
         case 3:
